@@ -127,8 +127,15 @@ figure img {
     flex-direction: row;
 }
 
+.texto-eventos{
+    display: flex;
+
+}
+
+
 .texto-eventos input {
     background-color: aqua
 }
 
 .
+
