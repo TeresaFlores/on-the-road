@@ -15,6 +15,7 @@
 
 <body>
 
+
     <header>
         
     </header>
@@ -32,18 +33,61 @@
             <input class="inputs" type="text" placeholder="Contraseña">
         </div>
         <div>
-            <button>Iniciar sesión</button>
+            <button class="botones">INICIAR SESIÓN</button>
         </div>
         <div>
-            <a href="">¿Olvidaste tu contraseña?</a>
-            <p>¿No tienes cuenta?</p>
-            <a href="">Registrate</a>
+            <a href="#" class="olvide-contraseña">Olvidaste tu contraseña</a>
+            <div class="registro-inicio">
+                <p>¿No tienes cuenta?</p>
+                <a href="#" class="olvide-contraseña">Registrate</a>
+
+            </div>
 
         </div>
 
-        <footer>Al dar continuar acepto los terminos y condiciones</footer>
+        <!-- <footer>Al dar continuar acepto los terminos y condiciones</footer> -->
     </main>
 
+
+
+    <main class="contenedor-padre">
+        <main class="contenedor">
+
+            <figure>
+                <img src="img/icono-inicio.png" alt="">
+            </figure>
+            <div>
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Contraseña">
+            </div>
+            <div>
+                <button>Iniciar sesión</button>
+            </div>
+            <div>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <p>¿No tienes cuenta?</p>
+                <a href="#caja-modal">Registrate</a>
+
+            </div>
+
+            <footer>Al dar continuar acepto los terminos y condiciones</footer>
+        </main>
+        <main id="caja-modal" class="caja-modal">
+            <main class="contenido-modal">
+                <header class="header-modal">
+                    <a href="#">X</a>
+                </header>
+                <box class="inputs-inicio">
+                    <input class="inputs" id="reg-nombre" type="text" placeholder="Nombre">
+                    <input class="inputs" id="reg-apellido" type="text" placeholder="Apellido">
+                    <input class="inputs" id="reg-mail" type="text" placeholder="Correo Electrónico">
+                    <input class="inputs" id="reg-giro" type="text" placeholder="Giro de Tu Emprendimiento">
+                    <input class="inputs" id="reg-contraseña" type="text" placeholder="Contraseña">
+                    <input class="inputs" id="reg'vercontraseña" type="text" placeholder="Confirma tu contraseña">
+                    <button class="inputs" id="reg'btn'submit" type="submit-btn-reg">Enviar</button>
+                </box>
+            </main>
+        </main>
     <section class="muro">
         <div class="fondo-muro">
             <div class="eventos">
@@ -53,16 +97,18 @@
                         <figure>
                             <img src="./img/2447878.jpg" alt="">
                         </figure>
-                        <input type="text" name="" id="">
+                        <input type="text" name="" class="inputs-inicio" id="">
+
                     </div>
                 </div>
-                <div class="evento-dos">
-
-                    <div class="texto-eventos">
+                <div class="comentarios">
+                    <h2>Comentarios</h2>
+                    <div class="comentario-uno">
                         <figure>
-                            <img src="img/2447959.jpg" alt="">
+                            <img src="img/2593297.jpg" alt="">
                         </figure>
-                        <input type="text" name="" id="">
+
+                        <input type="text" name="" class="inputs-inicio" id="">
                     </div>
                 </div>
             </div>
@@ -78,16 +124,23 @@
                 </div>
                 <div class="comentario-dos">
                     <figure>
-                        <img src="" alt="">
+                        <img src="img/65036.jpeg" alt="">
                     </figure>
                     <div>
                         <input type="text">
                     </div>
                 </div>
-
+                <div class="comentario-tres">
+                    <figure>
+                        <img src="img/785667.jpeg" alt="">
+                    </figure>
+                    <div>
+                        <input type="text">
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+
 
 
 
@@ -118,10 +171,15 @@
             <div class="proveedor2">
                 <img src="img/casa2.png">
 
-                <div class="padre2">
-                    <p>Inmobiliaria Posihueica</p>
-                    <p>Dirección:Insurgentes, Colinas de Santa Bárbara, Colima, Colima </p>
-                    <p>Nuestras guías son la brújula que te brinda atención personalizada con honestidad y respeto para lograr la compra o venta de inmuebles.</p>
+ 
+
+
+                    <div class="padre2">
+                        <p>Inmobiliaria Posihueica</p>
+                        <p>Dirección:Insurgentes, Colinas de Santa Bárbara, Colima, Colima </p>
+                        <p>Nuestras guías son la brújula que te brinda atención personalizada con honestidad y respeto para lograr la compra o venta de inmuebles.</p>
+                    </div>
+                    <button>Ver má</button>
                 </div>
                 <div class="inputs-inicio">
                 <button class="inputs">Ver má</button>
@@ -171,8 +229,11 @@
                     <p>RTM Inmobiliaria</p>
                     <p>Dirección: Corportativo Antara I, Piso 5, Interior A. </p>
                     <p>Somos una empresa Inmobiliaria con cobertura exclusiva en la Ciudad de México. Nuestro objetivo es ofrecer un servicio con más beneficios para nuestros clientes, y orientado a conseguir los mejores resultados.</p>
+
+                
+
                 </div>
-            </div>
+
 
             <div>
                 <img src="img/estrella.png">
@@ -183,6 +244,15 @@
     </section>
 
 
+
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.1.1/dist/pouchdb.min.js"></script>
+    <script>
+        var db = new PouchDB('test2');
+    </script>
+    <script>
+        type = "text/javascript"
+        src = "src/index.js"
+    </script>
 </body>
 
 
