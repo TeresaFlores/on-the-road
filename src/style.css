@@ -83,8 +83,7 @@ figure img{
 .comentario-uno{
     flex-direction: row;
 }
-.texto-eventos input{
-    background-color: aqua
-}
-.
+.texto-eventos{
+    display: flex;
 
+}
