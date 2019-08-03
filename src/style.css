@@ -1,4 +1,46 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    height: 70px;
+    background-color: #FBBFC9;
 
+}
+.contenedor-sesion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#logo-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    margin: 10%;
+}
+#icon-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 35%;
+    margin: 4%;
+}
+.inputs-inicio{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.inputs{
+    margin: 4%;
+    background-color: white;
+    color: #626262;
+    border: 2px solid #FBBFC9;
+    border-radius: 20px;
+    height: 25px;
+    text-align: center;
+}
 .opc-proveedores {
     height: black;
     border: solid;
