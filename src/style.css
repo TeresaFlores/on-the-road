@@ -41,23 +41,7 @@ header{
     height: 25px;
     text-align: center;
 }
-.opc-proveedores {
-    height: black;
-    border: solid;
-    /* display: table; */
-    width: 350px;
-    height: 400px;
-    display: flex;
-    flex-direction: row-reverse;
-    /* margin:2rem auto; */
-    /* width: 300px;
-    position: relative;
-    top: 75px;
-    bottom:0;
-    right:0;
-    left:100px; 
-    box-sizing: border-box; */
-}
+
 
 .muro{
     display: flex;
@@ -87,4 +71,51 @@ figure img{
     background-color: aqua
 }
 .
-
+.proveedores {
+    display: flex;
+    justify-content: center;
+}
+.opc-proveedores{
+    margin: 8%;
+    padding: 8%;
+    background-color:rgb(0,0,0,0.13 );
+    width: 85%;
+    height: 30%;  
+}
+.provedores-destacados{
+    margin: 8%;
+    padding: 8%;
+    background-color:rgb(0,0,0,0.13 );
+    width: 85%;
+    height: 30%; 
+}
+.proveedor1{
+    
+    background-color: #c5c8c8 ;
+    margin: 1%;
+    padding: 8%;
+}
+.proveedor2{
+    
+    background-color: #c5c8c8 ;
+    margin: 1%;
+    padding: 8%;
+}
+.proveedor3{
+    
+    background-color: #c5c8c8 ;
+    margin: 1%;
+    padding: 8%;
+}
+.proveedor4{
+    
+    background-color: #c5c8c8 ;
+    margin: 1%;
+    padding: 8%;
+}
+.proveedor5{
+    
+    background-color: #c5c8c8 ;
+    margin: 1%;
+    padding: 8%;
+}
