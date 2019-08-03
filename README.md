@@ -3,7 +3,7 @@ https://www.canva.com/design/DADhgO-msYE/SfD2wKrBvvniq-u1PFbvpQ/edit?category=tA
 El diagrama de flujode la arquitectura de nuestra web app se desarrolla de la siguiente manera:
 
 
-![](Diagrama de flujo.png)
+![](diagrama.png)
 
 
 Como primer alcance implementaremos un nivel básico de madurez, generando un proceso para resolver incidentes, que sera ciclico e iterativo y puede ser repetido para mas de un caso similar.
