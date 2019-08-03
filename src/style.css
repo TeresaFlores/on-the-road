@@ -1,0 +1,17 @@
+.opc-proveedores {
+    height: black;
+    border: solid;
+    /* display: table; */
+    width: 350px;
+    height: 400px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* margin:2rem auto; */
+    /* width: 300px;
+    position: relative;
+    top: 75px;
+    bottom:0;
+    right:0;
+    left:100px; 
+    box-sizing: border-box; */
+}
