@@ -15,6 +15,7 @@
 
 <body>
 
+
     <header>
         
     </header>
@@ -44,6 +45,46 @@
         <footer>Al dar continuar acepto los terminos y condiciones</footer>
     </main>
 
+
+
+    <main class="contenedor-padre">
+        <main class="contenedor">
+
+            <figure>
+                <img src="img/icono-inicio.png" alt="">
+            </figure>
+            <div>
+                <input type="text" placeholder="Correo electrónico">
+                <input type="text" placeholder="Contraseña">
+            </div>
+            <div>
+                <button>Iniciar sesión</button>
+            </div>
+            <div>
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <p>¿No tienes cuenta?</p>
+                <a href="#caja-modal">Registrate</a>
+
+            </div>
+
+            <footer>Al dar continuar acepto los terminos y condiciones</footer>
+        </main>
+        <main id="caja-modal" class="caja-modal">
+            <main class="contenido-modal">
+                <header class="header-modal">
+                    <a href="#">X</a>
+                </header>
+                <box class="inputs-inicio">
+                    <input class="inputs" id="reg-nombre" type="text" placeholder="Nombre">
+                    <input class="inputs" id="reg-apellido" type="text" placeholder="Apellido">
+                    <input class="inputs" id="reg-mail" type="text" placeholder="Correo Electrónico">
+                    <input class="inputs" id="reg-giro" type="text" placeholder="Giro de Tu Emprendimiento">
+                    <input class="inputs" id="reg-contraseña" type="text" placeholder="Contraseña">
+                    <input class="inputs" id="reg'vercontraseña" type="text" placeholder="Confirma tu contraseña">
+                    <button class="inputs" id="reg'btn'submit" type="submit-btn-reg">Enviar</button>
+                </box>
+            </main>
+        </main>
     <section class="muro">
         <div class="fondo-muro">
             <div class="eventos">
@@ -54,14 +95,16 @@
                             <img src="./img/2447878.jpg" alt="">
                         </figure>
                         <input type="text" name="" class="inputs-inicio" id="">
+
                     </div>
                 </div>
-                <div class="evento-dos">
-
-                    <div class="texto-eventos">
+                <div class="comentarios">
+                    <h2>Comentarios</h2>
+                    <div class="comentario-uno">
                         <figure>
-                            <img src="img/2447959.jpg" alt="">
+                            <img src="img/2593297.jpg" alt="">
                         </figure>
+
                         <input type="text" name="" class="inputs-inicio" id="">
                     </div>
                 </div>
@@ -93,90 +136,101 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
 
 
-    <section class="provedores">
-        <div>
-            <div class="buscador">
-                <select name="Filtarar">
-            <option value="1">Giro </option>
-            <option value="2">Nombre </option>
-            <option value="2">Ciudad </option>
-            <option value="2">Calificación </option>
-            <option value="2">Match amigos </option>
-          </select>
-            </div>
-            <div class="opc-proveedores"></div>
-            <div class="provedor1">
-                <img src="../img/casa.png">
-                <div class="padre1">
-                    <p>Hir Casa</p>
-                    <p>Dirección: Doctor velasco 193, Doctores, Cuauhtémoc, 06720, Ciudad de México </p>
-                    <p>Supera tus expectativas . Somos una empresa joven, profesional, con idea frescas, ya que gracias a nuestros asesores que trabajan de manera constante, persistente y comprometida se logra cumplir con el objetivo de vender, rentar y
-                        administrar las propiedades en el menor tiempo</p>
-                </div>
-                <button>Ver más</button>
-            </div>
-            <div class="proveedor2">
-                <img src="../img/casa2.png">
-
-                <div class="padre2">
-                    <p>Inmobiliaria Posihueica</p>
-                    <p>Dirección:Insurgentes, Colinas de Santa Bárbara, Colima, Colima </p>
-                    <p>Nuestras guías son la brújula que te brinda atención personalizada con honestidad y respeto para lograr la compra o venta de inmuebles.</p>
-                </div>
-                <button>Ver má</button>
-            </div>
-            <div class="proveedor3">
-                <img src="../img/casa3.png">
-                <div class="padre3">
-                    <p>Paulo Alvez Soluciones Inmobiliarias</p>
-                    <p>Dirección: Via Adolfo Lopez Mateos No.60, Valle de Santa Mónica, Tlalnepantla de Baz, 54057, Estado de México </p>
-                    <p>Sabemos la importancia y el valor de su patrimonio. Es por eso que nuestra misión es poner a su alcance nuestros servicios inmobiliarios brindándole seguridad y honestidad en el manejo de sus operaciones de compra, venta, renta, regularización
-                        y administración inmobiliaria. </p>
-                </div>
-                <button>Ver má</button>
-            </div>
-            <div class="proveedor4">
-                <img src="../img/casa4.png">
-                <div class="padre4">
-                    <p>Tu enlace Inmobiliario</p>
-                    <p>Dirección: Río yaqui, Jardines de San Manuel, Puebla, 72570, Puebla </p>
-                    <p>Empresa creada para brindar atención personalizada para clientes que desean vender, rentar y comprar inmuebles. Nuestro Equipo de profesionales brindan seguridad y Profesionalismo a cada necesidad.</p>
-                </div>
-                <button>Ver má</button>
-            </div>
-            <div class="proveedor5">
-                <img src="../img/inmobiliaria.png">
-                <div class="padre5">
-                    <p>Luz Alvarez Agente Inmobiliario</p>
-                    <p>Dirección: Anton de Alaminos 423A, Reforma, Veracruz, 91919, Veracruz </p>
-                    <p>Somos una Empresa Inmobiliaria con Diez años de Experiencia, te damos la asesoría gratis para encontrar la casa de tus sueños (Tu patrimonio). Te buscamos opciones de Vivienda en Casas Nuevas y a Terceros. Tramitamos todos los créditos.</p>
-                </div>
-                <button>Ver má</button>
-            </div>
-            <div class="provedores-destacados"></div>
-            <h2>Mejores provedores giro:Inmobiliario</h2>
+        <section class="provedores">
             <div>
-                <img src="../img/casa5.png">
-                <div class="padre6">
-                    <p>RTM Inmobiliaria</p>
-                    <p>Dirección: Corportativo Antara I, Piso 5, Interior A. </p>
-                    <p>Somos una empresa Inmobiliaria con cobertura exclusiva en la Ciudad de México. Nuestro objetivo es ofrecer un servicio con más beneficios para nuestros clientes, y orientado a conseguir los mejores resultados.</p>
+                <div class="buscador">
+                    <select name="Filtarar">
+                <option value="1">Giro </option>
+                <option value="2">Nombre </option>
+                <option value="2">Ciudad </option>
+                <option value="2">Calificación </option>
+                <option value="2">Match amigos </option>
+            </select>
+                </div>
+                <div class="opc-proveedores"></div>
+                <div class="provedor1">
+                    <img src="../img/casa.png">
+                    <div class="padre1">
+                        <p>Hir Casa</p>
+                        <p>Dirección: Doctor velasco 193, Doctores, Cuauhtémoc, 06720, Ciudad de México </p>
+                        <p>Supera tus expectativas . Somos una empresa joven, profesional, con idea frescas, ya que gracias a nuestros asesores que trabajan de manera constante, persistente y comprometida se logra cumplir con el objetivo de vender, rentar
+                            y administrar las propiedades en el menor tiempo</p>
+                    </div>
+                    <button>Ver más</button>
+                </div>
+                <div class="proveedor2">
+                    <img src="../img/casa2.png">
+
+                    <div class="padre2">
+                        <p>Inmobiliaria Posihueica</p>
+                        <p>Dirección:Insurgentes, Colinas de Santa Bárbara, Colima, Colima </p>
+                        <p>Nuestras guías son la brújula que te brinda atención personalizada con honestidad y respeto para lograr la compra o venta de inmuebles.</p>
+                    </div>
+                    <button>Ver má</button>
+                </div>
+                <div class="proveedor3">
+                    <img src="../img/casa3.png">
+                    <div class="padre3">
+                        <p>Paulo Alvez Soluciones Inmobiliarias</p>
+                        <p>Dirección: Via Adolfo Lopez Mateos No.60, Valle de Santa Mónica, Tlalnepantla de Baz, 54057, Estado de México </p>
+                        <p>Sabemos la importancia y el valor de su patrimonio. Es por eso que nuestra misión es poner a su alcance nuestros servicios inmobiliarios brindándole seguridad y honestidad en el manejo de sus operaciones de compra, venta, renta,
+                            regularización y administración inmobiliaria. </p>
+                    </div>
+                    <button>Ver má</button>
+                </div>
+                <div class="proveedor4">
+                    <img src="../img/casa4.png">
+                    <div class="padre4">
+                        <p>Tu enlace Inmobiliario</p>
+                        <p>Dirección: Río yaqui, Jardines de San Manuel, Puebla, 72570, Puebla </p>
+                        <p>Empresa creada para brindar atención personalizada para clientes que desean vender, rentar y comprar inmuebles. Nuestro Equipo de profesionales brindan seguridad y Profesionalismo a cada necesidad.</p>
+                    </div>
+                    <button>Ver má</button>
+                </div>
+                <div class="proveedor5">
+                    <img src="../img/inmobiliaria.png">
+                    <div class="padre5">
+                        <p>Luz Alvarez Agente Inmobiliario</p>
+                        <p>Dirección: Anton de Alaminos 423A, Reforma, Veracruz, 91919, Veracruz </p>
+                        <p>Somos una Empresa Inmobiliaria con Diez años de Experiencia, te damos la asesoría gratis para encontrar la casa de tus sueños (Tu patrimonio). Te buscamos opciones de Vivienda en Casas Nuevas y a Terceros. Tramitamos todos los
+                            créditos.
+                        </p>
+                    </div>
+                    <button>Ver má</button>
+                </div>
+                <div class="provedores-destacados"></div>
+                <h2>Mejores provedores giro:Inmobiliario</h2>
+                <div>
+                    <img src="../img/casa5.png">
+                    <div class="padre6">
+                        <p>RTM Inmobiliaria</p>
+                        <p>Dirección: Corportativo Antara I, Piso 5, Interior A. </p>
+                        <p>Somos una empresa Inmobiliaria con cobertura exclusiva en la Ciudad de México. Nuestro objetivo es ofrecer un servicio con más beneficios para nuestros clientes, y orientado a conseguir los mejores resultados.</p>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="../img/estrella.png">
+                    <img src="../img/corazon.png">
                 </div>
             </div>
-
-            <div>
-                <img src="../img/estrella.png">
-                <img src="../img/corazon.png">
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
 
+
+    <script src="//cdn.jsdelivr.net/npm/pouchdb@7.1.1/dist/pouchdb.min.js"></script>
+    <script>
+        var db = new PouchDB('test2');
+    </script>
+    <script>
+        type = "text/javascript"
+        src = "src/index.js"
+    </script>
 </body>
 
 
