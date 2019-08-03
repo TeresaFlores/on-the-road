@@ -1,0 +1,28 @@
+.muro{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: start;
+}
+figure{
+    display: flex;
+}
+figure img{
+    width: 30%;
+}
+.fondo-muro{
+    background-color: white;
+    width: 85%;
+    height: 30%;
+}
+.eventos , .comentarios{
+    background-color: rgb(219, 215, 215);
+}
+.comentario-uno{
+    flex-direction: row;
+}
+.texto-eventos input{
+    background-color: aqua
+}
+.
